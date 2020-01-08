@@ -16,8 +16,7 @@ if(url.match("steamcommunity.com/market/listings")){
   }
 
   function getActiveScript(){
-    var s;
-    s=document.getElementsByTagName('script');
+    s = document.getElementsByTagName('script');
     return s[s.length - 1];
   }
 
