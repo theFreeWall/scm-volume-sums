@@ -1,0 +1,13 @@
+{
+  "name": "SCM Volume Sums",
+  "description": "Summarizes the recent sale volume by days - console version",
+
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "permissions": ["tabs"],
+  "content_scripts": [ {
+      "matches": ["*://*.steamcommunity.com/*"],
+      "js": ["jquery.js", "code.js"]
+    }
+  ]
+}
